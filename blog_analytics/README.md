@@ -1,3 +1,6 @@
+Credit for the original version goes to Ty Shaikh at https://github.com/k2datascience/blog_analytics. 
+I cloned the repo for practice reasons. 
+
 # Blogging Analytics Dashboard
 
 Companion code for the tutorial series about building an analytics dashboard for a blog.
@@ -15,5 +18,3 @@ Companion code for the tutorial series about building an analytics dashboard for
 - **4_local_dashboard**: Contains the Flask app to serve the JSON and view the dashboard.
 - **5_heroku_dashboard**: Contains the Flask app to serve the JSON and view the dashboard.
 
-Credit for the original version goes to Ty Shaikh at https://github.com/k2datascience/blog_analytics. 
-I cloned the repo for practice reasons. 
