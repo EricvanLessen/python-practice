@@ -6,7 +6,7 @@ I cloned the repo for practice reasons.
 - The code scrapes webdata from a blog and extracts particular information. 
 - Analytics functions then create an analytical sumamry of those information. 
 - A sketch, html, css and vanilla javascript provides a simple and clear design. 
-- The barebone webdeveloper flask server takes the analytics knowledge from the json files and fills the vizualisation. 
+- The barebone flask server takes the analytics knowledge from the json files and fills the vizualisation. 
 
 
 # Blogging Analytics Dashboard
