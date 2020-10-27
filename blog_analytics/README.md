@@ -1,6 +1,12 @@
 Credit for the original version goes to Ty Shaikh at https://github.com/k2datascience/blog_analytics. 
 I cloned the repo for practice reasons. 
 
+- The code scrapes webdata from a blog and extracts particular information. 
+- Analytics functions then create an analytical sumamry of those information. 
+- A sketch, html, css and vanilla javascript provides a simple and clear design. 
+- The flask server takes the analytics knowledge from the json files and fills the vizualisation. 
+
+
 # Blogging Analytics Dashboard
 
 Companion code for the tutorial series about building an analytics dashboard for a blog.
