@@ -1,0 +1,36 @@
+https://medium.com/@chrischuck35/how-to-create-a-mysql-instance-with-docker-compose-1598f3cc1bee
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+https://www.youtube.com/watch?v=j2PEJDsMgRs
+https://dev.to/gsudarshan/how-to-install-mysql-and-workbench-on-ubuntu-20-04-localhost-5828
+https://hub.docker.com/r/mysql/mysql-server/tags
+https://stackoverflow.com/questions/33827342/how-to-connect-mysql-workbench-to-running-mysql-inside-docker
+https://dev.mysql.com/downloads/
+https://www.youtube.com/watch?v=X8W5Xq9e2Os  (Local Database setup In just 5 Mins (docker+mysql+workbench))
+install mysql workbench
+
+terminal:
+# start workbench
+mysql-workbench
+
+# run and configure docker with mysql
+sudo docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql/mysql-server:5.7
+
+# go inside container
+sudo docker exec -it mysql /bin/bash
+
+# launch mysql and enter pw from line 16
+mysql -uroot -p -A
+
+# grant user on host machine
+update mysql.user set host='%' where user='root';
+flush privileges;
+
+# exit
+exit
+exit
+
+# check connection
+mysql -uroot -p -P3306 -h127.0.01
+
+# add connection in mysql workbench
+
